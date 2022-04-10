@@ -6,7 +6,7 @@ import Image from './Image';
 function MySkills (){
   return(
     <div>
-    <div className="flex justify-center mt-10">
+    <div className="flex justify-center mt-10 mx-4">
     <H1>Skills</H1>
     </div>
     <Box>
