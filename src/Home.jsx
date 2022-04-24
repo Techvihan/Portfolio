@@ -11,7 +11,7 @@ function Home(){
             <span className="text-5xl sm:text-5xl font-bold bg-clip-text bg-gradient-to-b from-indigo-500 to-pink-500 text-transparent p-2">Web Designer & Developer.</span>
             </div>
             </div>
-            <img className="w-full h-screen md:h-96 sm:h-96 shadow-md shadow-yellow-300" src="https://images4.alphacoders.com/206/thumb-1920-206954.jpg"/>
+            <img className="w-full h-screen md:h-96 sm:h-96 shadow-md shadow-yellow-300" src="/background.jpg"/>
         </>
     );
 }
