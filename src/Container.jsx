@@ -1,29 +1,37 @@
 import React from 'react'
 import Home from './Home';
+import Icon from './Icon';
 import MyDetails from './MyDetail';
 import MyProject from './MyProject';
 import MySkills from './MySkills';
 import TopBar from './TopBar';
 
-function Container (){
-  return(
+function Container() {
+  return (
     <div>
-    <div className="bg-gradient-to-r from-black via-gray-500 to-white h-full py-8">
       <TopBar></TopBar>
-      <Home></Home>
-      <MySkills></MySkills>
-      <MyProject></MyProject>
-      <MyDetails></MyDetails>
-      <div className="text-center mt-10 mx-auto w-32 sm:w-full sm:flex justify-center">
-      <a href="https://codeyogi.io/" target="_blank" className="border-2 sm:w-96 w-full flex justify-center hover:transition hover:animate-pulse ease-in-out delay-150  hover:-translate-y-1 
+      <div className="bg-gradient-to-r from-black via-gray-500 to-white h-full py-2">
+        <Home></Home>
+        <MySkills></MySkills>
+        <MyProject></MyProject>
+        <MyDetails></MyDetails>
+
+        <div className="text-center mt-10 mx-auto w-full flex flex-row space-x-5 sm:w-full  justify-center">
+          <Icon address="https://twitter.com/home" icon="https://img.icons8.com/fluency/344/twitter.png"></Icon>
+          <Icon address="https://www.instagram.com/username_vihan/" icon="https://img.icons8.com/fluency/344/instagram-new.png"></Icon>
+          <Icon address="https://github.com/Techvihan" icon="https://img.icons8.com/ios-filled/344/github.png"></Icon>
+          <Icon address="https://www.linkedin.com/feed/" icon="https://img.icons8.com/color/344/linkedin-circled--v1.png"></Icon>
+        </div>
+
+        <div className="text-center mt-10 mx-auto w-32  sm:w-full sm:flex justify-center">
+          <a href="https://codeyogi.io/" target="_blank" className="border-2 sm:w-96 w-full flex justify-center hover:transition hover:animate-pulse ease-in-out delay-150  hover:-translate-y-1 
     hover:scale-110  duration-150  bg-gradient-to-r from-red-500 via-gray-500 to-blue-500
-    text-2xl rounded-lg">❤️ at CodeYogi</a>
+    text-2xl rounded-lg">❤️ at CodeYogi</a></div>
+
       </div>
-    </div>
     </div>
   );
 }
 export default Container
 
 
-  
