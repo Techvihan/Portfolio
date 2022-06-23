@@ -1,5 +1,4 @@
 import React from 'react'
-import { useState } from 'react/cjs/react.production.min';
 import Box from './Box';
 import DetailBox from './DetailBox';
 import H1 from './H1';
@@ -7,7 +6,6 @@ import Popup from './Popup';
 
 
 function MyDetails() {
-  // const [showPopup, setShowPopup] = useState()
   return (
     <div>
       <div className="flex justify-center mt-10">

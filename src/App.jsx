@@ -4,9 +4,9 @@ import Container from "./Container";
 
 function App() {
   return (
-    <div>
+    <div className="bg-hero-pattern">
       <Container>
-        
+
       </Container>
     </div>
   );
