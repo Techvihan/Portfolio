@@ -2,7 +2,6 @@ import React from 'react'
 import Box from './Box';
 import DetailBox from './DetailBox';
 import H1 from './H1';
-import Popup from './Popup';
 
 
 function MyDetails() {

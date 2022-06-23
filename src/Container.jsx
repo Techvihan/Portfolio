@@ -4,8 +4,6 @@ import Icon from './Icon';
 import MyDetails from './MyDetail';
 import MyProject from './MyProject';
 import MySkills from './MySkills';
-// import TopBar from './TopBar';
-import H2 from './H2';
 import TopBar from './TopBar';
 
 function Container() {
