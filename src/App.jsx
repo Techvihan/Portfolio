@@ -6,7 +6,6 @@ function App() {
   return (
     <div className="bg-hero-pattern">
       <Container>
-
       </Container>
     </div>
   );
