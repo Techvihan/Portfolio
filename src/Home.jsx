@@ -9,7 +9,7 @@ function Home() {
                     <span className="text-xl font-bold sm:px-12 sm:text-3xl">WELCOME TO MY WORLD</span>
                     <span className="text-6xl md:text-4xl lg:text-6xl sm:text-6xl font-bold bg-clip-text bg-gradient-to-b from-stone-700 to-gray-500 text-transparent p-2">Hi, I’m Abhishek Arya</span>
                     <span className="text-5xl sm:text-5xl font-bold bg-clip-text bg-gradient-to-b from-stone-700 to-gray-500 text-transparent p-2">Web Designer & Developer.</span>
-                    <a className="bg-blue-500 border-2 border-blue-800 text-white font-bold p-2 rounded-md w-24 hover:bg-green-500 text-center" target="_blank" href="https://drive.google.com/file/d/1PUVRb1Sd4XEd2eAp3enL9PqRCuZOl3iC/view">Resume</a>
+                    <a className="bg-blue-500 border-2 border-blue-800 text-white font-bold p-2 rounded-md w-24 hover:bg-green-500 text-center" target="_blank" href='/resume.jpg'>Resume</a>
 
                 </div>
             </div>
