@@ -1,7 +1,7 @@
 import React from 'react'
 function DetailBox(props) {
   return (
-    <div className="border-2 border-black sm:w-96 w-full flex justify-start hover:transition hover:animate-pulse ease-in-out delay-150  hover:-translate-y-1 cursor-pointer 
+    <div className="border-2 border-black sm:w-96 w-full flex justify-start 
     hover:scale-110  duration-150  bg-gradient-to-r from-red-500 via-gray-500 to-blue-500
     text-2xl rounded-lg">
       <div className='flex flex-col sm:flex-row'>

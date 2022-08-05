@@ -7,7 +7,7 @@ import H1 from './H1';
 function MyDetails() {
   return (
     <div>
-      <div className="flex justify-center mt-10">
+      <div className="flex justify-center space-x-4 mt-10">
         <H1>Details</H1>
       </div>
 
