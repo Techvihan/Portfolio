@@ -16,11 +16,12 @@ function MyProject() {
           <Alink link="bit.ly/3ugFa4u">Cart App</Alink>
         </div>
         <div className='space-y-10'>
-          <Alink link="https://assignment-33-create-a-todo-app-abhishekvihan.codeyogiteam.repl.co/">Todo List</Alink>
+          <Alink link="https://assignment-33-create-a-todo-app-abhishekvihan.codeyogiteam.repl.co/">Todo App</Alink>
           <Alink link="https://assignment-34-create-ask-jud-clone-abhishekvihan.codeyogiteam.repl.co/">Ask Judo</Alink>
           <Alink link="https://dwoodwala.com/">D Wood Wala</Alink>
         </div>
         <div className='space-y-10 flex flex-col'>
+          <Alink link="https://login-tvihan.netlify.app/">TechVihan Login</Alink>
           <Alink link="https://techvihan-hd-wallpaper.netlify.app/">TechVihan Wallpaper</Alink>
           <Alink link="https://responsive-page-techvihan.netlify.app/">Responsive Webpage</Alink>
         </div>
