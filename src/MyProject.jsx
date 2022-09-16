@@ -17,7 +17,7 @@ function MyProject() {
         </div>
         <div className='space-y-10'>
           <Alink link="https://assignment-33-create-a-todo-app-abhishekvihan.codeyogiteam.repl.co/">Todo App</Alink>
-          <Alink link="https://assignment-34-create-ask-jud-clone-abhishekvihan.codeyogiteam.repl.co/">Ask Judo</Alink>
+          <Alink link="https://hospital-techvihan.netlify.app/">Hospital</Alink>
           <Alink link="https://dwoodwala.com/">D Wood Wala</Alink>
         </div>
         <div className='space-y-10 flex flex-col'>
